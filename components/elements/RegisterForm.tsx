@@ -1,8 +1,12 @@
 "use client";
+
 import { auth } from "@/firebase.config";
+import axios from "axios";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { MouseEvent } from "react";
+import toast from "react-hot-toast";
 import GoogleIcon from "../../public/icons/google.svg";
+
 export default function RegisterForm() {
   const handleGoogle = async (
     e: MouseEvent<HTMLButtonElement>
@@ -10,16 +14,33 @@ export default function RegisterForm() {
     e.preventDefault();
     const provider = new GoogleAuthProvider();
     try {
-      await signInWithPopup(auth, provider);
-    } catch (error) {
-      console.error("Error signing in with Google:", error);
+      const result = await signInWithPopup(auth, provider);
+      console.log("Sign-in successful");
+
+      const user = result.user;
+
+      const res = await axios.post(
+        "https://bookread-backend.goit.global/auth/register",
+        {
+          name: user.displayName,
+          email: user.email,
+          password: user.uid,
+        }
+      );
+
+      console.log("Response:", res.data);
+    } catch (error: any) {
+      toast.error(
+        error.response.data.message || "An unexpected error occurred"
+      );
     }
   };
+
   return (
     <div className="auth-back w-full h-full px-5 pt-32 pb-11 flex flex-col items-center ">
       <button
         onClick={handleGoogle}
-        className="relative  bg-white cursor-pointer px-12 py-4 inline font-bold text-gray-500 font-roboto "
+        className="relative bg-white cursor-pointer px-12 py-4 inline font-bold text-gray-500 font-roboto "
       >
         <span className="absolute left-4">
           <GoogleIcon />
@@ -49,7 +70,7 @@ export default function RegisterForm() {
           />
         </label>
         <button className="bg-orange-500 text-white font-semibold py-5">
-          register
+          Register
         </button>
       </form>
     </div>
