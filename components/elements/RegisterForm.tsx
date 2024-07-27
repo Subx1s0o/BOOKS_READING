@@ -1,9 +1,26 @@
+"use client";
+import { auth } from "@/firebase.config";
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { MouseEvent } from "react";
 import GoogleIcon from "../../public/icons/google.svg";
-
 export default function RegisterForm() {
+  const handleGoogle = async (
+    e: MouseEvent<HTMLButtonElement>
+  ): Promise<void> => {
+    e.preventDefault();
+    const provider = new GoogleAuthProvider();
+    try {
+      await signInWithPopup(auth, provider);
+    } catch (error) {
+      console.error("Error signing in with Google:", error);
+    }
+  };
   return (
     <div className="auth-back w-full h-full px-5 pt-32 pb-11 flex flex-col items-center ">
-      <button className="relative  bg-white cursor-pointer px-12 py-4 inline font-bold text-gray-500 font-roboto ">
+      <button
+        onClick={handleGoogle}
+        className="relative  bg-white cursor-pointer px-12 py-4 inline font-bold text-gray-500 font-roboto "
+      >
         <span className="absolute left-4">
           <GoogleIcon />
         </span>
