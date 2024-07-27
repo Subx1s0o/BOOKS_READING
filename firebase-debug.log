@@ -1,0 +1,18 @@
+[debug] [2024-07-27T13:07:44.518Z] ----------------------------------------------------------------------
+[debug] [2024-07-27T13:07:44.522Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\chego\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-07-27T13:07:44.523Z] CLI Version:   13.14.2
+[debug] [2024-07-27T13:07:44.523Z] Platform:      win32
+[debug] [2024-07-27T13:07:44.523Z] Node Version:  v20.15.1
+[debug] [2024-07-27T13:07:44.523Z] Time:          Sat Jul 27 2024 16:07:44 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-07-27T13:07:44.524Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-27T13:07:44.712Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-27T13:07:44.712Z] > authorizing via signed-in user (subx1s0o@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2024-07-27T13:07:44.746Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-07-27T13:07:44.746Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-07-27T13:07:44.747Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-07-27T13:07:44.756Z] [hub] writing locator at C:\Users\chego\AppData\Local\Temp\hub-books-reading-a3341.json
+[debug] [2024-07-27T13:07:44.794Z] > refreshing access token with scopes: []
+[debug] [2024-07-27T13:07:44.797Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-07-27T13:07:44.798Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]

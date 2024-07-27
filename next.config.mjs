@@ -2,6 +2,9 @@
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
+  distDir: "out",
   webpack(config) {
     // SVG file handling
     const fileLoaderRule = config.module.rules.find((rule) =>
