@@ -26,7 +26,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/_document.js"
+    "app/_document.js",
+    "app/lib/i18n.js",
+    "next-i18next.config.mjs.ts"
   ],
   "exclude": ["node_modules"]
 }

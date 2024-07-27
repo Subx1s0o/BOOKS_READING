@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 .my-container {
   margin: 0 auto;
   padding-left: 22px;
@@ -23,6 +23,62 @@
   }
 }
 
-body {
-  font-family: "Montserrat", serif;
+.auth-back {
+  background-image: linear-gradient(rgba(9, 30, 63, 0.8), rgba(9, 30, 63, 0.8)),
+    url(../public/images/authback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-resolution: 2dppx),
+  screen and (-webkit-min-device-pixel-ratio: 2) {
+  .auth-back {
+    background-image: linear-gradient(
+        rgba(9, 30, 63, 0.8),
+        rgba(9, 30, 63, 0.8)
+      ),
+      url(../public/images/authback@2x.jpg);
+  }
+}
+
+@media (min-width: 550px) {
+  .auth-back {
+    background-image: linear-gradient(
+        rgba(9, 30, 63, 0.8),
+        rgba(9, 30, 63, 0.8)
+      ),
+      url(../public/images/authback-tab.png);
+  }
+
+  @media screen and (min-resolution: 2dppx),
+    screen and (-webkit-min-device-pixel-ratio: 2) {
+    .auth-back {
+      background-image: linear-gradient(
+          rgba(9, 30, 63, 0.8),
+          rgba(9, 30, 63, 0.8)
+        ),
+        url(../public/images/authback-tab@2x.png);
+    }
+  }
+}
+@media (min-width: 768px) {
+  .auth-back {
+    background-image: linear-gradient(
+        rgba(9, 30, 63, 0.8),
+        rgba(9, 30, 63, 0.8)
+      ),
+      url(../public/images/authback-desk.png);
+  }
+
+  @media screen and (min-resolution: 2dppx),
+    screen and (-webkit-min-device-pixel-ratio: 2) {
+    .auth-back {
+      background-image: linear-gradient(
+          rgba(9, 30, 63, 0.8),
+          rgba(9, 30, 63, 0.8)
+        ),
+        url(../public/images/authback-desk@2x.png);
+    }
+  }
 }

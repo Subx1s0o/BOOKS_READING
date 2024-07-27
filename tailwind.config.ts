@@ -11,6 +11,7 @@ const config: Config = {
       screens: {
         xs: "320px",
         sm: "480px",
+        smd: "550px",
         md: "650px",
         xmd: "768px",
         lg: "1024px",
@@ -19,6 +20,9 @@ const config: Config = {
       fontSize: {
         base: "16px",
         md: "20px",
+      },
+      fontFamily: {
+        roboto: ["'Roboto'", "sans-serif"],
       },
     },
   },

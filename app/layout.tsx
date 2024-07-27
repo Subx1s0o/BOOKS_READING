@@ -1,7 +1,9 @@
 import Header from "@/components/Header";
+import HeaderAuth from "@/components/HeaderAuth";
 import type { Metadata } from "next";
-import "./globals.css";
+import React from "react";
 
+import "./globals.css";
 export const metadata: Metadata = {
   title: "Books Reading",
   description:
@@ -13,10 +15,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const user = false;
   return (
     <html lang="en">
       <body>
-        <Header />
+        {!user ? <Header /> : <HeaderAuth />}
         {children}
       </body>
     </html>
