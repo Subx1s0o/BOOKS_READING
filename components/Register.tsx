@@ -1,7 +1,6 @@
 import { AbrilFont } from "@/app/lib/font";
 import Arrow from "@/public/icons/list-arrow.svg";
 import RegisterForm from "./elements/RegisterForm";
-
 export default function Register() {
   return (
     <main>

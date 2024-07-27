@@ -1,16 +1,204 @@
-[debug] [2024-07-27T13:31:39.990Z] ----------------------------------------------------------------------
-[debug] [2024-07-27T13:31:39.995Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\chego\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
-[debug] [2024-07-27T13:31:39.995Z] CLI Version:   13.14.2
-[debug] [2024-07-27T13:31:39.996Z] Platform:      win32
-[debug] [2024-07-27T13:31:39.996Z] Node Version:  v20.15.1
-[debug] [2024-07-27T13:31:39.996Z] Time:          Sat Jul 27 2024 16:31:39 GMT+0300 (Eastern European Summer Time)
-[debug] [2024-07-27T13:31:39.996Z] ----------------------------------------------------------------------
+[debug] [2024-07-27T14:17:23.531Z] ----------------------------------------------------------------------
+[debug] [2024-07-27T14:17:23.539Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\chego\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-07-27T14:17:23.541Z] CLI Version:   13.14.2
+[debug] [2024-07-27T14:17:23.541Z] Platform:      win32
+[debug] [2024-07-27T14:17:23.542Z] Node Version:  v20.15.1
+[debug] [2024-07-27T14:17:23.542Z] Time:          Sat Jul 27 2024 17:17:23 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-07-27T14:17:23.543Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-07-27T13:31:40.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-07-27T13:31:40.200Z] > authorizing via signed-in user (subx1s0o@gmail.com)
+[debug] [2024-07-27T14:17:23.846Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-27T14:17:23.847Z] > authorizing via signed-in user (subx1s0o@gmail.com)
 [info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-07-27T13:31:40.221Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-07-27T13:31:40.221Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-07-27T13:31:40.222Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2024-07-27T13:31:40.230Z] [hub] writing locator at C:\Users\chego\AppData\Local\Temp\hub-books-reading-a3341.json
-[debug] [2024-07-27T13:31:40.264Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/books-reading-a3341/sites 
+[debug] [2024-07-27T14:17:23.890Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-07-27T14:17:23.891Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-07-27T14:17:23.892Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-07-27T14:17:23.909Z] [hub] writing locator at C:\Users\chego\AppData\Local\Temp\hub-books-reading-a3341.json
+[debug] [2024-07-27T14:17:23.961Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/books-reading-a3341/sites 
+[debug] [2024-07-27T14:17:25.302Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/books-reading-a3341/sites 200
+[debug] [2024-07-27T14:17:25.303Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/books-reading-a3341/sites {"sites":[{"name":"projects/books-reading-a3341/sites/books-reading-a3341","defaultUrl":"https://books-reading-a3341.web.app","appId":"1:152456795631:web:ae837f323f1f03bd6e921a","type":"DEFAULT_SITE"}]}
+[debug] [2024-07-27T14:17:25.304Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/books-reading-a3341/webApps/1:152456795631:web:ae837f323f1f03bd6e921a/config [none]
+[debug] [2024-07-27T14:17:26.224Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/books-reading-a3341/webApps/1:152456795631:web:ae837f323f1f03bd6e921a/config 200
+[debug] [2024-07-27T14:17:26.224Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/books-reading-a3341/webApps/1:152456795631:web:ae837f323f1f03bd6e921a/config {"projectId":"books-reading-a3341","appId":"1:152456795631:web:ae837f323f1f03bd6e921a","storageBucket":"books-reading-a3341.appspot.com","apiKey":"AIzaSyA_0-8SiIBSUPml_MYPnGPpnVIzW2GMFBQ","authDomain":"books-reading-a3341.firebaseapp.com","messagingSenderId":"152456795631","measurementId":"G-LR7FTHQM0P"}
+[debug] [2024-07-27T14:17:26.236Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/books-reading-a3341 [none]
+[debug] [2024-07-27T14:17:26.509Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/books-reading-a3341 200
+[debug] [2024-07-27T14:17:26.509Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/books-reading-a3341 {"projectId":"books-reading-a3341","projectNumber":"152456795631","displayName":"books reading","name":"projects/books-reading-a3341","resources":{"hostingSite":"books-reading-a3341"},"state":"ACTIVE","etag":"1_50d6f1fb-d9f0-4178-b5b1-196d25845192"}
+[info] i  hosting[books-reading-a3341]: Serving hosting files from: out {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mout\u001b[22m"}}
+[info] +  hosting[books-reading-a3341]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /register/ HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /register/ HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/css/fbba13dc72e8f38c.css HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/css/fbba13dc72e8f38c.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/webpack-bf554bd47c981982.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/webpack-bf554bd47c981982.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/fd9d1056-2821b0f0cabcd8bd.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/fd9d1056-2821b0f0cabcd8bd.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/main-app-438e8742964439a2.js HTTP/1.1" 200 462 "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/main-app-438e8742964439a2.js HTTP/1.1\" 200 462 \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/app/page-58e5931f8fcb753a.js HTTP/1.1" 200 208 "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/app/page-58e5931f8fcb753a.js HTTP/1.1\" 200 208 \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/231-a667814d58dcbeb4.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/231-a667814d58dcbeb4.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/184-9de8c0ead377e6a7.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/184-9de8c0ead377e6a7.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/23-a964ce83d4b322c3.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/23-a964ce83d4b322c3.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/e8149b54-f77274b8cb79e2d0.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/e8149b54-f77274b8cb79e2d0.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/media/9f705a8904cabecc-s.p.woff2 HTTP/1.1" 200 13144 "http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/media/9f705a8904cabecc-s.p.woff2 HTTP/1.1\" 200 13144 \"http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/chunks/app/register/page-78c2f5f522db027e.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/chunks/app/register/page-78c2f5f522db027e.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] "GET /_next/static/media/authback-desk@2x.2b8e0d50.png HTTP/1.1" 200 3085844 "http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:51 +0000] \"GET /_next/static/media/authback-desk@2x.2b8e0d50.png HTTP/1.1\" 200 3085844 \"http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:52 +0000] "GET /index.txt?_rsc=1swsf HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:52 +0000] \"GET /index.txt?_rsc=1swsf HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:53 +0000] "GET /register.txt?_rsc=1wtp7 HTTP/1.1" 404 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:53 +0000] \"GET /register.txt?_rsc=1wtp7 HTTP/1.1\" 404 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:56 +0000] "GET /register/ HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:56 +0000] \"GET /register/ HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:17:59 +0000] "GET /_next/static/media/authback-desk.3cdb46a0.png HTTP/1.1" 200 922159 "http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:17:59 +0000] \"GET /_next/static/media/authback-desk.3cdb46a0.png HTTP/1.1\" 200 922159 \"http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:10 +0000] "GET /register/ HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:10 +0000] \"GET /register/ HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:10 +0000] "GET /_next/static/css/fbba13dc72e8f38c.css HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:10 +0000] \"GET /_next/static/css/fbba13dc72e8f38c.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:10 +0000] "GET /_next/static/chunks/webpack-bf554bd47c981982.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:10 +0000] \"GET /_next/static/chunks/webpack-bf554bd47c981982.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/chunks/fd9d1056-2821b0f0cabcd8bd.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/chunks/fd9d1056-2821b0f0cabcd8bd.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/chunks/main-app-438e8742964439a2.js HTTP/1.1" 200 462 "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/chunks/main-app-438e8742964439a2.js HTTP/1.1\" 200 462 \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/chunks/23-a964ce83d4b322c3.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/chunks/23-a964ce83d4b322c3.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/chunks/app/page-58e5931f8fcb753a.js HTTP/1.1" 200 208 "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/chunks/app/page-58e5931f8fcb753a.js HTTP/1.1\" 200 208 \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/chunks/231-a667814d58dcbeb4.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/chunks/231-a667814d58dcbeb4.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/chunks/184-9de8c0ead377e6a7.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/chunks/184-9de8c0ead377e6a7.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/chunks/e8149b54-f77274b8cb79e2d0.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/chunks/e8149b54-f77274b8cb79e2d0.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/media/9f705a8904cabecc-s.p.woff2 HTTP/1.1" 200 13144 "http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/media/9f705a8904cabecc-s.p.woff2 HTTP/1.1\" 200 13144 \"http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/chunks/app/register/page-78c2f5f522db027e.js HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/chunks/app/register/page-78c2f5f522db027e.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /_next/static/media/authback-desk@2x.2b8e0d50.png HTTP/1.1" 200 3085844 "http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /_next/static/media/authback-desk@2x.2b8e0d50.png HTTP/1.1\" 200 3085844 \"http://127.0.0.1:5000/_next/static/css/fbba13dc72e8f38c.css\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] "GET /index.txt?_rsc=1swsf HTTP/1.1" 200 - "http://127.0.0.1:5000/register/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Jul/2024:14:18:11 +0000] \"GET /index.txt?_rsc=1swsf HTTP/1.1\" 200 - \"http://127.0.0.1:5000/register/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36\""}}
+[debug] [2024-07-27T14:21:01.778Z] Received signal SIGINT (Ctrl-C) 1
+[info]  
+[info] i  emulators: Received SIGINT (Ctrl-C) for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGINT (Ctrl-C) signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hosting: Stopping Hosting Emulator {"metadata":{"emulator":{"name":"hosting"},"message":"Stopping Hosting Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
+[debug] [2024-07-27T14:21:01.989Z] Received signal SIGINT (Ctrl-C) 2
+[info]  
+[debug] [2024-07-27T14:21:01.990Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 2 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:02.210Z] Received signal SIGINT (Ctrl-C) 3
+[info]  
+[debug] [2024-07-27T14:21:02.211Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 3 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:02.533Z] Received signal SIGINT (Ctrl-C) 4
+[info]  
+[debug] [2024-07-27T14:21:02.534Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 4 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:02.961Z] Received signal SIGINT (Ctrl-C) 5
+[info]  
+[debug] [2024-07-27T14:21:02.962Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 5 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:03.878Z] Received signal SIGINT (Ctrl-C) 6
+[info]  
+[debug] [2024-07-27T14:21:03.879Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 6 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:04.158Z] Received signal SIGINT (Ctrl-C) 7
+[info]  
+[debug] [2024-07-27T14:21:04.159Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 7 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:07.637Z] Received signal SIGINT (Ctrl-C) 8
+[info]  
+[debug] [2024-07-27T14:21:07.638Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 8 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:07.884Z] Received signal SIGINT (Ctrl-C) 9
+[info]  
+[debug] [2024-07-27T14:21:07.884Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 9 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:08.612Z] Received signal SIGINT (Ctrl-C) 10
+[info]  
+[debug] [2024-07-27T14:21:08.612Z] Skipping clean onExit() and cleanShutdown()
+[warn] !  emulators: Received SIGINT (Ctrl-C) 10 times. You have forced the Emulator Suite to exit without waiting for 0 subprocess to finish. These processes may still be running on your machine:  
+[info] 
+┌──────────┬───────────┬─────┐
+│ Emulator │ Host:Port │ PID │
+└──────────┴───────────┴─────┘
+
+To force them to exit run:
+
+[info] TASKKILL  /T
+
+[debug] [2024-07-27T14:21:11.828Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\chego\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.

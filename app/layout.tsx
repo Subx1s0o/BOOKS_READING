@@ -3,6 +3,7 @@ import HeaderAuth from "@/components/HeaderAuth";
 import type { Metadata } from "next";
 import React from "react";
 
+import { Toaster } from "react-hot-toast";
 import "./globals.css";
 export const metadata: Metadata = {
   title: "Books Reading",
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Toaster />
         {!user ? <Header /> : <HeaderAuth />}
         {children}
       </body>
