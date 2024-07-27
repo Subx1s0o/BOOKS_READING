@@ -15,7 +15,6 @@ export default function RegisterForm() {
     const provider = new GoogleAuthProvider();
     try {
       const result = await signInWithPopup(auth, provider);
-      console.log("Sign-up successful");
 
       const user = result.user;
 
@@ -27,8 +26,8 @@ export default function RegisterForm() {
           password: user.uid,
         }
       );
-
-      console.log("Response:", res.data);
+      toast.success("User created");
+      return res.data;
     } catch (error: any) {
       toast.error(
         error.response.data.message || "An unexpected error occurred"
