@@ -14,9 +14,25 @@ export default function RegisterForm() {
     e.preventDefault();
     const provider = new GoogleAuthProvider();
     try {
-      await signInWithPopup(auth, provider);
-    } catch (error) {
-      console.error("Error signing in with Google:", error);
+      const result = await signInWithPopup(auth, provider);
+      console.log("Sign-up successful");
+
+      const user = result.user;
+
+      const res = await axios.post(
+        "https://bookread-backend.goit.global/auth/register",
+        {
+          name: user.displayName,
+          email: user.email,
+          password: user.uid,
+        }
+      );
+
+      console.log("Response:", res.data);
+    } catch (error: any) {
+      toast.error(
+        error.response.data.message || "An unexpected error occurred"
+      );
     }
   };
 
